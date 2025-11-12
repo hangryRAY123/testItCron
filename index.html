@@ -28,7 +28,11 @@
                   <a class="nav__link" href="#">Контакты</a>
                 </li>
               </ul>
-              <button class="nav__toggle" type="button">
+              <button
+                class="nav__toggle"
+                type="button"
+                aria-label="Открыть мобильное меню."
+              >
                 <svg
                   class="nav__burger"
                   aria-hidden="true"
@@ -47,11 +51,14 @@
                 >
                   <use href="img/sprite.svg#close"></use>
                 </svg>
-                <span class="visually-hidden">Мобильное меню.</span>
               </button>
             </nav>
             <div class="kebab-menu">
-              <button class="kebab-menu__button" aria-label="Открыть меню">
+              <button
+                class="kebab-menu__button"
+                type="button"
+                aria-label="Открыть меню."
+              >
                 <span></span>
                 <span></span>
                 <span></span>
@@ -85,8 +92,10 @@
                       aria-hidden="true"
                       focusable="false"
                     >
-                      <use xlink:href="img/sprite.svg#facebook"></use></svg
-                  ></a>
+                      <use xlink:href="img/sprite.svg#facebook"></use>
+                    </svg>
+                    <span class="visually-hidden">Facebook.</span></a
+                  >
                 </li>
                 <li class="social__item">
                   <a href="#" class="social__link">
@@ -98,6 +107,7 @@
                     >
                       <use xlink:href="img/sprite.svg#instagram"></use>
                     </svg>
+                    <span class="visually-hidden">Instagram.</span>
                   </a>
                 </li>
                 <li class="social__item">
@@ -110,6 +120,7 @@
                     >
                       <use xlink:href="img/sprite.svg#linkedin"></use>
                     </svg>
+                    <span class="visually-hidden">Linkedin.</span>
                   </a>
                 </li>
                 <li class="social__item">
@@ -122,6 +133,7 @@
                     >
                       <use xlink:href="img/sprite.svg#telegram"></use>
                     </svg>
+                    <span class="visually-hidden">Telegram.</span>
                   </a>
                 </li>
               </ul>
